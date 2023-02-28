@@ -16,9 +16,23 @@
 		<div class="container py-5 d-grid justify-content-center">
 			<h2>Ingrese un valor del 1 al 10</h2>
 
-			<input type="number" class="mt-3" id="valor"/>
+			<input type="number" class="mt-3" id="valor" />
 
-			<button class="btn btn-info mt-3" id="btn-enviar">Enviar</button>
+			<a class="btn btn-info mt-3" id="btn-enviar" href="#showTabla"
+				>Enviar</a
+			>
+			<br />
+			<br />
+			<table
+				class="table border shadow-sm w-fit text-center table-striped table-gray table-hover"
+				id="showTabla"
+			>
+				<tr class="table-dark">
+					<th class="w-50">Operacion</th>
+					<th class="w-50">Resultado</th>
+				</tr>
+				<tbody id="tabla"></tbody>
+			</table>
 		</div>
 
 		<script src="E4.js"></script>
